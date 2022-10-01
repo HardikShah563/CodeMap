@@ -244,7 +244,7 @@ footer p i {
     }
 }
 
-/* Scroll Bar CSS */
+/* <============= Scroll Bar CSS =============> */
 ::-webkit-scrollbar {
     width: 4px;
     background-color: var(--off-black);

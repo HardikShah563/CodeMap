@@ -61,71 +61,61 @@ body {
     overflow-y: hidden;
 }
 
-.dual-sections {
-    display: flex;
-}
-
-.left-section, .right-section {
-    border: 1px solid var(--white);
-}
-
-.left-section {
-    width: 30%;
-}
-
-.right-section {
-    width: 100%;
-    overflow-y: scroll;
-}
-
-
-
-
-/* 
-.intersection-hr {
-    width: 100%;
-    justify-content: flex-start;
-    margin: 10px auto;
-    border: 1px solid var(--light-black);
-    margin-right: 100px;
-}
-
-.info {
+.page{
     display: flex;
     justify-content: space-between;
 }
 
-.scroll {
+.dual-sections {
+    display: flex;
+}
+
+.left-section {
     overflow: scroll;
-    height: 100vh;
+    height:100vh;
     width: 22vw;
     margin-left: 30px;
     border-right: solid 2px;
 }
 
-.scroll_heading {
-    margin: 20px auto;
-}
-
-.topic {
-    text-align: center;
-    font-weight: bold;
-}
-
-.info {
-    font-size: 22px;
-    color: #aaaaaa;
-}
-
-.options {
-    font-size: 18px;
-    height: 5vh;
-    color: var(--white);
-
-}
-
-.tutorial {
+.right-section {
     overflow-y: scroll;
     width: 78vw;
-    height: 100vh;
-} */
+    height:100vh;
+    padding: 20px;
+    text-align: justify;
+}
+
+.inner-section {
+    margin: 20px 0;
+}
+
+.inner-section a {
+    align-items: center;
+}
+
+.inner-section a i {
+    font-size: 12px;
+}
+
+.inner-subsections {
+    margin: 10px 20px;
+}
+
+.inter-section-hr {
+    width: 80%;
+    justify-content: flex-start;
+    border: 1px solid var(--light-black);
+}
+
+
+/* <============= Scroll Bar CSS =============> */
+::-webkit-scrollbar {
+    width: 4px;
+    background-color: var(--off-black);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--grey);
+    border-radius: 10px;
+}
